@@ -40,11 +40,6 @@ All results are reported using ROC-AUC.
 │   └── Yang2025_2C/
 │       ├── within/
 │       └── cross/
-│
-├── figures/
-│   ├── scripts used to generate paper figures
-│   └── generated figures
-│
 └── README.md
 ```
 The `results/` folder includes both aggregate summaries and subject-level raw result files for each dataset, pipeline, and evaluation regime.
@@ -58,19 +53,6 @@ The benchmark was implemented in Python using:
 - [PyRiemann](https://github.com/pyRiemann/pyRiemann)
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [PyTorch](https://pytorch.org/)
-
-
-## Evaluation design
-For each dataset, pipelines were evaluated independently under two regimes:
-
-- Within-subject evaluation: each subject is evaluated separately using 5-fold cross-validation.
-- Cross-subject evaluation: Leave-one-subject-out evaluation, the model is trained on all subjects except one and tested on the held-out subject.
-
-Quartiles are defined according to within-subject TS+EL ROC-AUC:
-- **Q1**: subjects with the lowest within-subject TS+EL scores;
-- **Q4**: subjects with the highest within-subject TS+EL scores.
-
-The quartile plots show the mean change: cross-subject ROC-AUC - within-subject ROC-AUC for each pipeline and dataset.
 
 ## Notes
 The deep-learning models were evaluated using fixed hyperparameters across datasets and regimes. The results should therefore be interpreted as standard-pipeline benchmark behaviour rather than as dataset-specific optimised performance.
