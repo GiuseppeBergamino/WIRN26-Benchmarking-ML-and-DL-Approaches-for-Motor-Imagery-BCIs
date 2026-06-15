@@ -1,0 +1,15 @@
+# Core scientific stack
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+scikit-learn==1.8.0
+
+# EEG / BCI benchmarking
+mne==1.12.1
+moabb==1.5.0
+pyriemann==0.11
+braindecode==1.3.2
+
+# Neural networks / training
+torch==2.11.0
+skorch==1.3.1
