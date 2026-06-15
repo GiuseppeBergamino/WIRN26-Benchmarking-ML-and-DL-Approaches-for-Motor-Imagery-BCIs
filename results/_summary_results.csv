@@ -1,0 +1,25 @@
+exp_id,evaluation,pipeline,score_mean_std
+20260325_100509_Cho2017_within_TS+EL,within,TS+EL,75.37 ± 14.55
+20260325_101600_Cho2017_within_EEGNet_8_2,within,EEGNet_8_2,70.65 ± 16.46
+20260325_103904_Cho2017_within_ShallowConvNet,within,ShallowConvNet,72.56 ± 13.92
+20260325_120715_Cho2017_within_DeepConvNet,within,DeepConvNet,68.23 ± 15.24
+20260325_131547_Cho2017_cross_TS+EL,cross,TS+EL,67.46 ± 11.41
+20260325_140031_Cho2017_cross_EEGNet_8_2,cross,EEGNet_8_2,72.82 ± 14.98
+20260325_174747_Cho2017_cross_ShallowConvNet,cross,ShallowConvNet,71.95 ± 12.07
+20260326_071329_Cho2017_cross_DeepConvNet,cross,DeepConvNet,74.01 ± 12.65
+20260430_095904_Lee2019_MI_within_TS+EL,within,TS+EL,86.61 ± 11.09
+20260430_115948_Lee2019_MI_within_EEGNet_8_2,within,EEGNet_8_2,77.11 ± 16.32
+20260501_074422_Lee2019_MI_within_ShallowConvNet,within,ShallowConvNet,74.79 ± 15.84
+20260501_100845_Lee2019_MI_within_DeepConvNet,within,DeepConvNet,68.93 ± 18.03
+20260502_090045_Lee2019_MI_cross_TS+EL,cross,TS+EL,80.29 ± 13.78
+20260504_080326_Lee2019_MI_cross_EEGNet_8_2,cross,EEGNet_8_2,88.33 ± 9.86
+20260505_072111_Lee2019_MI_cross_ShallowConvNet,cross,ShallowConvNet,83.90 ± 11.96
+20260506_071453_Lee2019_MI_cross_DeepConvNet,cross,DeepConvNet,86.50 ± 10.72
+20260507_070608_Yang2025_2C_within_TS+EL,within,TS+EL,73.06 ± 15.26
+20260507_072055_Yang2025_2C_within_EEGNet_8_2,within,EEGNet_8_2,67.59 ± 16.32
+20260507_074657_Yang2025_2C_within_ShallowConvNet,within,ShallowConvNet,68.96 ± 15.08
+20260507_090924_Yang2025_2C_within_DeepConvNet,within,DeepConvNet,67.19 ± 15.40
+20260507_094159_Yang2025_2C_cross_TS+EL,cross,TS+EL,61.89 ± 11.84
+20260507_121404_Yang2025_2C_cross_EEGNet_8_2,cross,EEGNet_8_2,80.30 ± 16.54
+20260507_211927_Yang2025_2C_cross_ShallowConvNet,cross,ShallowConvNet,54.79 ± 7.53
+20260508_070807_Yang2025_2C_cross_DeepConvNet,cross,DeepConvNet,65.95 ± 11.39
